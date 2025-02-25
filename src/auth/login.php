@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../dashboard.php");
         exit;
     } else {
-        echo "Credenciales incorrectas. <a href='index.php'>Volver</a>";
+        echo "Credenciales incorrectas. <a href='../index.php'>Volver</a>";
     }
 }
 

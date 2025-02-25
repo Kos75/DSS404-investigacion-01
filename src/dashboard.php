@@ -11,10 +11,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Dashboard</title>
 </head>
 <body>
-    <h2>Bienvenido, <?php echo $_SESSION['username']; ?>!</h2>
-    <a herf="auth/logout.php"> Cerrar Sesión</a>
+    <div class='container'>
+        <h2>Bienvenido, <?php echo $_SESSION['username']; ?>!</h2>
+        <a href="./auth/logout.php">Cerrar Sesión</a>
+    </div>
  </body>
  </html>
