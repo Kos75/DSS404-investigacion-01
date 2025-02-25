@@ -11,13 +11,13 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Login</title>
 </head>
 <body>
     <div class="container">
         <h2>Login</h2>
-            <form action="login.php" method="POST">
+            <form action="auth/login.php" method="POST">
                 <label>Usuario:</label>
                 <input type="text" name="username" required><br>
                 <label>Contraseña:</label>

@@ -15,6 +15,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 </head>
 <body>
     <h2>Bienvenido, <?php echo $_SESSION['username']; ?>!</h2>
-    <a herf="logout.php"> Cerrar Sesión</a>
+    <a herf="auth/logout.php"> Cerrar Sesión</a>
  </body>
  </html>
